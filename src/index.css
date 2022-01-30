@@ -1,13 +1,92 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  margin: auto;
+  max-width: 800px;
+  text-align: center;
+  color: #ffffff;
+  font-family: Helvetica, sans-serif;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.scanContainer{
+  background-color: #01131b;
+  max-width: 420px;
+  height: 300px;
+  padding: 15px;
+  margin: auto;
+}
+
+
+.scanlist{
+  background-color: #01131b;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.scans{
+  background-color: #01131b;
+  color: white;
+  padding: 10px;
+  border-bottom: 1px dotted #ececec;
+  height: 35px;
+}
+
+.scans::marker{
+  color: grey;
+  font-size: 10px;
+  margin: 0;
+}
+
+
+.scanName{
+  font-size: 14px; 
+  margin: 0;
+  height: 20px;
+  cursor: pointer;
+}
+
+.scanTag{
+  font-size: 10px;
+  margin: 0;
+  height: 14px;
+  cursor: pointer;
+}
+
+.scanDetails{
+  background-color: #01131b;
+  max-width: 420px;
+  height: 300px;
+  padding: 15px;
+  margin: auto;
+  text-align: left;
+}
+
+.scanTitle{
+  background-color: #1686b0;
+  color: white;
+  padding: 10px;  
+  height: 35px;
+}
+
+.scanContent{
+  background-color: #01131b;
+  color: white;
+  padding: 10px;  
+  height: 35px;
+}
+
+.scanName1{
+  font-size: 14px; 
+  margin: 0;
+  height: 20px;
+}
+
+.scanTag1{
+  font-size: 10px;
+  margin: 0;
+  height: 14px;
 }
